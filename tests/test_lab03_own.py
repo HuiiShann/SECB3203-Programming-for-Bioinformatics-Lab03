@@ -1,4 +1,4 @@
-from src.qc import classify_read, trim_low_quality
+from qc import classify_read, trim_low_quality
 
 def test_classify_read_length_boundary():
     """Test the exact boundary for minimum length (500)."""
